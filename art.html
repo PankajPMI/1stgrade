@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rajasthan Art & Culture Complete Course by Rajesh Sir">
+    <title>Rajasthan Art & Culture - Complete Course</title>
+    <style>
+        :root {
+            --primary: #3b82f6;
+            --secondary: #1e40af;
+            --bg-dark: #0f172a;
+            --bg-card: #1e293b;
+            --text: #f8fafc;
+            --text-mute: #94a3b8;
+            --success: #22c55e;
+            --warning: #eab308;
+            --radius: 12px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--secondary);
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            padding: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .search {
+            margin-bottom: 1.5rem;
+        }
+        #search {
+            width: 100%;
+            padding: 0.875rem 1.25rem;
+            border-radius: var(--radius);
+            border: 1px solid #334155;
+            background-color: #1e293b;
+            color: var(--text);
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+        #search:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+        .chapter {
+            background-color: var(--bg-card);
+            margin-bottom: 1.25rem;
+            border-radius: var(--radius);
+            padding: 1.25rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .chapter:hover {
+            transform: translateY(-2px);
+        }
+        .chapter h2 {
+            margin: 0 0 1rem;
+            color: var(--primary);
+            font-size: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+        .links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            min-width: 80px;
+        }
+        .links a.video {
+            background-color: var(--success);
+            color: black;
+        }
+        .links a.pdf {
+            background-color: var(--warning);
+            color: black;
+        }
+        .links a:hover {
+            opacity: 0.9;
+            transform: scale(1.02);
+        }
+        .footer {
+            text-align: center;
+            padding: 1.5rem;
+            color: var(--text-mute);
+            font-size: 0.875rem;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            .chapter {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>📚 राजस्थान कला एवं संस्कृति - पूर्ण पाठ्यक्रम (राजेश सर)</header>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="search" placeholder="अध्याय खोजें..." aria-label="अध्याय खोजें">
+        </div>
+
+        <!-- चित्रकला -->
+        <div class="chapter">
+            <h2>🎨 चित्रकला</h2>
+            <div class="links">
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/145286107560131260_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+            </div>
+        </div>
+
+        <!-- स्थापत्य कला -->
+        <div class="chapter">
+            <h2>🏛️ स्थापत्य कला</h2>
+            <div class="links">
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/25761164100404764_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+            </div>
+        </div>
+
+        <!-- लोकदेवता -->
+        <div class="chapter">
+            <h2>🙏 लोकदेवता (भाग 1-6)</h2>
+            <div class="links">
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2424601/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 1</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/676964678317464000_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 1</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2426022/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 2</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/297757025004581440_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 2</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2427636/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 3</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/110435063767176000_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 3</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2429203/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 4</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/123369354839751250_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 4</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2430553/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 5</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/856487408221361000_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 5</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2493361/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 6</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/658960914806687200_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 6</a>
+            </div>
+        </div>
+
+        <!-- लोक देवियां -->
+        <div class="chapter">
+            <h2>👸 लोक देवियां</h2>
+            <div class="links">
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2495166/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 1</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/565913435227331500_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 1</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2497212/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 2</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/609447584012067000_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 2</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2499088/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 3</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/801789075069075100_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 3</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2500904/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 4</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/109170663031998270_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 4</a>
+            </div>
+        </div>
+
+        <!-- संत एवं सम्प्रदाय -->
+        <div class="chapter">
+            <h2>🧘 संत एवं सम्प्रदाय</h2>
+            <div class="links">
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2513769/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 1</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/138572284943879820_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 1</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2514219/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 2</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/159622870301836960_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 2</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2515763/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 3</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/447031322314769800_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 3</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2517389/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 4</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/26985675359748150_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 4</a>
+            </div>
+        </div>
+
+        <!-- मेले -->
+        <div class="chapter">
+            <h2>🎉 मेले और त्यौहार</h2>
+            <div class="links">
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2518411/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 1</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/758361263722076400_video_2518411.pdf" target="_blank" rel="noopener noreferrer">PDF 1</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2519303/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 2</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/101229694513229730_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 2</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2520623/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">वीडियो 3</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/118054357299802350_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 3</a>
+            </div>
+        </div>
+
+        <!-- लोकनृत्य -->
+        <div class="chapter">
+            <h2>💃 राजस्थान के प्रमुख लोकनृत्य</h2>
+            <div class="links">
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2523933/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">भाग 1</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/642029953406491500_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 1</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2525532/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">भाग 2</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/694525245034711300_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 2</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2527161/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">भाग 3</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/223637560524545540_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 3</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2528766/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">भाग 4</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/806913294708026000_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 4</a>
+            </div>
+        </div>
+
+        <!-- वेशभूषा एवं आभूषण -->
+        <div class="chapter">
+            <h2>👗 राजस्थान की वेशभूषा एवं आभूषण</h2>
+            <div class="links">
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2528767/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">भाग 1</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/468616763241872960_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 1</a>
+            </div>
+        </div>
+
+        <!-- प्रमुख दुर्ग -->
+        <div class="chapter">
+            <h2>🏰 राजस्थान के प्रमुख दुर्ग</h2>
+            <div class="links">
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2530411/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">भाग 1</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/870865778321873000_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 1</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2530412/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">भाग 2</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/699187935050886800_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 2</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2532391/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">भाग 3</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/798079639239983700_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 3</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2535421/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">भाग 4</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/66258798099823944_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 4</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2538693/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">भाग 5</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/205531473459712100_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 5</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2540204/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">भाग 6</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/627958489698157300_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 6</a>
+                <a class="video" href="https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos/enc_plain_mp4/2541594/plain/720x1280.mp4" target="_blank" rel="noopener noreferrer">भाग 7</a>
+                <a class="pdf" href="https://apps-s3-prod.utkarshapp.com/admin_v1/file_manager/pdf/146000101262843940_PDF.pdf" target="_blank" rel="noopener noreferrer">PDF 7</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2026 राजस्थान कला एवं संस्कृति पाठ्यक्रम | राजेश सर
+    </div>
+
+    <script>
+        function searchChapter() {
+            let input = document.getElementById('search').value.toLowerCase();
+            let chapters = document.getElementsByClassName('chapter');
+            for (let i = 0; i < chapters.length; i++) {
+                let text = chapters[i].textContent.toLowerCase();
+                chapters[i].style.display = text.includes(input) ? '' : 'none';
+            }
+        }
+        document.getElementById('search').addEventListener('keyup', searchChapter);
+    </script>
+</body>
+</html>
